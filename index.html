@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINCE PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PRINCE_PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#recommendations">RECOMMENDATIONS</a></li>
+                <li><a href="#criteria">CRITERIA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>ABOUT ME</h2>
+        <p>Welcome! I am Priyanshu Mohanty, a dedicated and innovative web developer..."As a passionate and driven web developer, I specialize in creating intuitive and engaging websites that meet both user needs and business goals. With a strong background in front-end and back-end technologies, I’m committed to delivering high-quality, responsive web solutions. My approach focuses on clean, efficient code and creating seamless user experiences. I thrive in dynamic environments and am always eager to learn and adapt to new technologies. Whether working independently or collaborating with a team, my goal is to build innovative solutions that leave a lasting impact."</p>
+    </section>
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+            <h3>Task Manager</h3>
+            <p>A web application to manage and track tasks, built with JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>RECOMMENDATIONS</h2>
+        <p>"A fantastic developer who always delivers quality work on time!" - John Doe</p>
+        <p>"Very creative and a quick learner!" - Jane Smith</p>
+    </section>
+
+    <section id="authors">
+        <h2>AUTHORS</h2>
+        <p><strong>Priyanshu Mohanty</strong>: Web developer and creator of this portfolio project.</p>
+    </section>
+
+    <section id="contributors">
+        <h2>OTHER CONTRIBUTORS</h2>
+        <ul>
+            <li><strong>Pragnya Priyadarsini</strong>: Reviewed content and provided feedback for improvements.</li>
+            <li><strong>Ashmita RoUt</strong>: Made corrections and refined the text for clarity.</li>
+        </ul>
+    </section>
+
+    <h1>Version Change Log</h1>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>DATE</th>
+                    <th>VERSION</th>
+                    <th>CHANGED BY</th>
+                    <th>CHANGE DESCRIPTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>26-11-2024</td>
+                    <td>1.0</td>
+                    <td>PRIYANSHU MOHANTY</td>
+                    <td>Initial version created</td>
+                </tr>
+                <tr>
+                    <td>07-11-2024</td>
+                    <td>1.1</td>
+                    <td>PRAGNYA PRIYADARSINI</td>
+                    <td>Updated instructions based on CFT reviews</td>
+                </tr>
+                <tr>
+                    <td>30-11-2024</td>
+                    <td>1.2</td>
+                    <td>ASHMITA ROUT</td>
+                    <td>Minor text edits</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="criteria">
+        <h2>CRITERIA</h2>
+        <button onclick="showTasks()">Show Tasks</button>
+        <div class="tasks-container">
+            <div class="task">
+                Task 1: Complete the project proposal
+                <button onclick="window.location.href='#home'">Home</button>
+            </div>
+            <div class="task">
+                Task 2: Design the wireframes
+            </div>
+            <div class="task">
+                Task 3: Develop the HTML structure
+            </div>
+            <div class="task">
+                Task 4: Style with CSS
+                <button onclick="window.location.href='#home'">Home</button>
+            </div>
+            <div class="task">
+                Task 5: Add interactivity with JavaScript
+            </div>
+            <div class="task">
+                Task 6: Test responsiveness
+            </div>
+            <div class="task">
+                Task 7: Optimize for SEO
+                <button onclick="window.location.href='#home'">Home</button>
+            </div>
+            <div class="task">
+                Task 8: Perform cross-browser testing
+            </div>
+            <div class="task">
+                Task 9: Deploy the website
+            </div>
+        </div>
+        
+  <!-- contact  section -->
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you have any queery,feel free to reach out to me by filling the form below</p>
+
+    
+
+      <form id="form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name">
+        </div>
+
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="abc@gmail.com">
+        </div>
+
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <input type="text" id="message" name="message" placeholder="Your Message">
+        </div>
+
+        
+        <button class="" type="submit">Send message</button>
+        <input type="submit" id="button" value="Send Email" >
+      </form>
+      <script src="script.js"></script>
+      <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script type="text/javascript">
+      emailjs.init('-5EOJFEn51pdPEs-O')
+    </script>
+        <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('-5EOJFEn51pdPEs-O')
+</script>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h3>PRIYANSHU MOHANTY</h3>
+            <p>Follow me on social media or contact me for collaborations!</p>
+            <ul class="socials">
+                <li><a href="https://www.instagram.com/pri33yanshu/"> <img src="asset/instagram (3) - Copy.png" alt=""></a></li>
+                <li><a href="https://github.com/PriyanshuMohanty2611"><img src="asset/github.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PRIYANSHU MOHANTY. All Rights Reserved ......!!</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

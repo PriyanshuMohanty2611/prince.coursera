@@ -1,0 +1,233 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFEB3B; /* Subtle yellow background */
+    color: #212121; /* Dark text for better readability */
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease-in-out; /* Smooth background transition */
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #212121, #FFEB3B); /* Gradient background */
+    color: rgb(246, 255, 0); /* Yellow text for header */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+    transition: background 0.5s ease-in-out; /* Smooth header background transition */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem; /* Larger text for header */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: yellow; /* Yellow text for nav links */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+    color: #212121; /* Inverted colors on hover */
+    transform: scale(1.1); /* Subtle scaling effect */
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #212121; /* Darker border for contrast */
+    background-color: #FFF9C4; /* Lighter yellow for sections */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease-out; /* Smooth transform */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Lift sections slightly on hover */
+}
+
+section h2 {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #212121;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 1.1rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden; /* Prevent border overflow */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+th {
+    background-color: #212121; /* Dark background for headers */
+    color: yellow;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5; /* Light gray background for even rows */
+}
+
+tr:hover {
+    background-color: #FFEB3B; /* Highlight row on hover */
+    color: #212121; /* Change text color on hover */
+}
+/* Button Hover Effects */
+button {
+    background-color: #FFEB3B; /* Yellow background */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #212121;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF9800; /* Change to a deeper yellow on hover */
+    transform: scale(1.05); /* Slight button enlargement on hover */
+}
+/* Footer Styling */
+footer {
+    background: linear-gradient(45deg, #212121, #FFEB3B); /* Gradient background for depth */
+    color: white; /* Change text color for better contrast */
+    text-align: center;
+    padding: 30px 20px; /* Add more padding for spacious look */
+    margin-top: 40px; /* Slightly more margin at the top */
+    width: 100%;
+    box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.4); /* Pronounced shadow for depth */
+    position: relative;
+    z-index: 10;
+    transition: background 0.5s ease-in-out, box-shadow 0.3s ease; /* Smooth background transition */
+}
+
+/* Footer Heading */
+footer h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #FFEB3B; /* Bright yellow for heading */
+}
+
+/* Footer Social Icons */
+footer .social-icons {
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5px;
+    z-index: 5;
+}
+
+footer .social-icons a {
+    color: white; /* Light color for icons */
+    font-size: 2.5rem; /* Slightly larger icons for emphasis */
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #212121; /* Dark background for icons */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow on icons */
+}
+
+footer .social-icons a:hover {
+    background-color: #FFEB3B; /* Yellow background on hover */
+    color: #212121; /* Dark text on hover */
+    transform: scale(1.2); /* Slight enlargement on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+/* Footer Bottom Text */
+footer .footer-bottom {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #FFEB3B; /* Bright yellow text */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Footer Contact Link */
+footer p a {
+    color: #FFEB3B;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: #FF9800; /* Slightly deeper yellow on hover */
+}
+ /* Contact Section */
+ #contact {
+    padding: 40px 20px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #contact input, #contact button {
+    padding: 10px;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    background: #000;
+    color: #FFD700;
+  }
+  
+  #contact button {
+    cursor: pointer;
+  }
+  
+  #contact button:hover {
+    background: #FFD700;
+    color: #000;
+  }
+  
