@@ -1,0 +1,24 @@
+class Box{
+    int length;
+    int width;
+    int breadth;
+    int volume()
+    {
+        return length*width*breadth;
+
+    }
+}
+
+class Boxdemo4
+{
+    public static void main(String[] args)
+    {
+        Box b1=new Box();
+        b1.length=10;
+        b1.width=20;
+        b1.breadth=30;
+        
+            System.out.println("the volume is:"+b1.volume());
+        
+    }
+}
